@@ -1,0 +1,46 @@
+.red{
+    background-color: red;
+    color: #fff;
+}
+.blue{
+    color: #fff;
+    background-color: blue;
+}
+.yellow{
+    color: #000;
+    background-color: yellow;
+}
+.green{
+    color: #fff;
+    background-color: green;
+}
+.purple{
+    color: #fff;
+    background-color: purple;
+}
+.orange{
+    color: #fff;
+    background-color: orange;
+}
+.white{
+    color: #000;
+    background-color: white;
+}
+.black{
+    color: #fff;
+    background-color: black;
+}
+
+blockquote{
+    color: #555 !important;
+    padding: 10px 20px !important;
+    margin: 0 0 20px !important;
+    border-left: 5px solid #eee !important;
+    vertical-align: unset !important;
+    border-radius: 0 !important;
+}
+
+.col-five {
+    flex: 0 0 19.99999%;
+    max-width: 19.99999%;
+  }
