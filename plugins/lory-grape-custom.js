@@ -104,11 +104,11 @@
                             slideProps: {},
                             prevProps: {},
                             nextProps: {},
-                            slideEls: '<div class="gjs-lory-slide"></div><div class="gjs-lory-slide"></div><div class="gjs-lory-slide"></div>',
+                            slideEls: '\n      <div class="gjs-lory-slide"></div>\n      <div class="gjs-lory-slide"></div>\n      <div class="gjs-lory-slide"></div>\n    ',
                             prevEl:
-                                '<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 501.5 501.5">  <g><path fill="#2E435A" d="M302.67 90.877l55.77 55.508L254.575 250.75 358.44 355.116l-55.77 55.506L143.56 250.75z"/></g></svg>',
+                                '<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 501.5 501.5">\n        <g><path fill="#2E435A" d="M302.67 90.877l55.77 55.508L254.575 250.75 358.44 355.116l-55.77 55.506L143.56 250.75z"/></g>\n      </svg>',
                             nextEl:
-                                '<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 501.5 501.5">  <g><path fill="#2E435A" d="M199.33 410.622l-55.77-55.508L247.425 250.75 143.56 146.384l55.77-55.507L358.44 250.75z"/></g></svg>',
+                                '<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 501.5 501.5">\n        <g><path fill="#2E435A" d="M199.33 410.622l-55.77-55.508L247.425 250.75 143.56 146.384l55.77-55.507L358.44 250.75z"/></g>\n      </svg>',
                             classFrame: "gjs-lory-frame",
                             classSlides: "gjs-lory-slides",
                             classSlide: "gjs-lory-slide",
@@ -265,15 +265,15 @@
                                 s.add(
                                     '<div data-gjs-type="' +
                                         d +
-                                        '">        <div data-gjs-type="' +
+                                        '">\n              <div data-gjs-type="' +
                                         p +
                                         '">' +
                                         t.slideEls +
-                                        '</div>    </div>    <span data-gjs-type="' +
+                                        '</div>\n          </div>\n          <span data-gjs-type="' +
                                         c +
                                         '">' +
                                         t.prevEl +
-                                        '</span>    <span data-gjs-type="' +
+                                        '</span>\n          <span data-gjs-type="' +
                                         f +
                                         '">' +
                                         t.nextEl +
@@ -559,7 +559,7 @@
                         s(
                             {
                                 label:
-                                    '<svg width="50px" class="gjs-block-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">  <path d="M22 7.6c0-1-.5-1.6-1.3-1.6H3.4C2.5 6 2 6.7 2 7.6v9.8c0 1 .5 1.6 1.3 1.6h17.4c.8 0 1.3-.6 1.3-1.6V7.6zM21 18H3V7h18v11z" fill-rule="nonzero"/><path d="M4 12.5L6 14v-3zM20 12.5L18 14v-3z"/></svg><div class="gjs-block-label">Slider</div>',
+                                    '\n      <svg width="50px" class="gjs-block-svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">\n        <path d="M22 7.6c0-1-.5-1.6-1.3-1.6H3.4C2.5 6 2 6.7 2 7.6v9.8c0 1 .5 1.6 1.3 1.6h17.4c.8 0 1.3-.6 1.3-1.6V7.6zM21 18H3V7h18v11z" fill-rule="nonzero"/><path d="M4 12.5L6 14v-3zM20 12.5L18 14v-3z"/>\n      </svg>\n      <div class="gjs-block-label">Slider</div>\n    ',
                                 category: "BÃ¡sicos",
                                 content: { type: n },
                             },
