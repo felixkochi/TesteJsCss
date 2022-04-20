@@ -1,39 +1,32 @@
-.red {
+.red{
     background-color: red;
     color: #fff;
 }
-
-.blue {
+.blue{
     color: #fff;
     background-color: blue;
 }
-
-.yellow {
+.yellow{
     color: #000;
     background-color: yellow;
 }
-
-.green {
+.green{
     color: #fff;
     background-color: green;
 }
-
-.purple {
+.purple{
     color: #fff;
     background-color: purple;
 }
-
-.orange {
+.orange{
     color: #fff;
     background-color: orange;
 }
-
-.white {
+.white{
     color: #000;
     background-color: white;
 }
-
-.black {
+.black{
     color: #fff;
     background-color: black;
 }
@@ -48,19 +41,19 @@
 }
 
 .alerta {
-    padding: 15px;
-    margin-bottom: 20px;
-    border: 1px solid transparent;
+    padding: 15px; 
+    margin-bottom: 20px; 
+    border: 1px solid transparent; 
     border-radius: 4px;
 }
 
 .alerta-vermelho {
-    color: #a94442;
-    background-color: #f2dede;
-    border-color: #ebccd1;
+    color: #a94442; 
+    background-color: #f2dede; 
+    border-color: #ebccd1; 
 }
 
-blockquote {
+blockquote{
     color: #555 !important;
     padding: 10px 20px !important;
     margin: 0 0 20px !important;
@@ -72,69 +65,6 @@ blockquote {
 .col-five {
     flex: 0 0 19.99999%;
     max-width: 19.99999%;
-}
+  }
 
-.gjs-block.fa {
-    font-size: 5em;
-}
-
-.gjs-block-label {
-    font-size: 11px;
-}
-
-.alert {
-    position: relative;
-    padding: 0.75rem 1.25rem;
-    margin-bottom: 1rem;
-    border: 1px solid transparent;
-    border-radius: 0.25rem;
-}
-
-.gjs-pn-views-container {
-    width: 20% !important;
-}
-
-.gjs-pn-views {
-    width: 20% !important;
-}
-
-.cke_editable_inline {
-    width: 100%;
-}
-
-.gjs-pn-commands {
-    width: 80% !important;
-}
-
-
-.gjs-pn-options {
-    right: 20% !important;
-}
-
-.gjs-cv-canvas {
-    width: 80% !important;
-}
-
-.gjs-one-bg {
-    background-color: #fff !important;
-}
-
-.gjs-two-color {
-    color: #444 !important;
-}
-
-.gjs-pn-panel {
-    font-size: 20px;
-}
-
-.gjs-devices-c {
-    display: none;
-}
-
-.gjs-block:hover {
-    color: #444;
-}
-
-.gjs-pn-btn:before {
-    color: #444;
-}
+  
