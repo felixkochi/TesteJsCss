@@ -35,13 +35,6 @@
 		}
 	} );
 
-	CKEDITOR.plugins.add( 'timestamp', {
-		icons: 'timestamp',
-		init: function( editor ) {
-			//Plugin logic goes here.
-		}
-	});
-
 	function create( editor, spaceName, target ) {
 		var innerHtml, space;
 
